@@ -1,0 +1,21 @@
+SECOM YIELD ANALYSIS: KEY FINDINGS
+==================================
+
+Runs analysed:                1567
+Sensor signals:               590
+Failed runs:                  104
+Yield:                        93.4%
+Fail rate:                    6.6%
+
+Dropped (> 40% missing):     32
+Dropped (constant):           116
+Sensors analysed:             442
+
+Significant sensors (q<0.05): 17
+Top 3 sensors by p-value:     S060, S104, S511
+
+Weeks outside control limits: 1 of 14
+
+Cross-validated model performance:
+- Logistic regression: ROC-AUC 0.66
+- Random forest: ROC-AUC 0.72
